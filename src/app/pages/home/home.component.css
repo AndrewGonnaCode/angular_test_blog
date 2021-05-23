@@ -1,0 +1,36 @@
+
+.records{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.records > h3{
+	margin-top: 40px;
+}
+.records__items{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+}
+.btn__add{
+	position: fixed;
+	right: 100px;
+	bottom: 50px;
+}
+
+@media (max-width:930px) {
+	.records__items{
+		grid-template-columns: repeat(2,1fr);
+	  }
+}
+@media (max-width:640px) {
+	.records__items{
+		display: flex;
+		flex-direction: column;
+	  }
+	  .btn__add{
+		  right: 10px;
+		  bottom: 20px;
+	  }
+}

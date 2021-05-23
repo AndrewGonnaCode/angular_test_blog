@@ -1,0 +1,8 @@
+<div class="records">
+	<h3>Блог</h3>
+	<div class="records__items">
+		<app-card *ngFor="let record of records" [record]="record"></app-card>
+	</div>
+	<button (click)="showModal()" class="btn btn__add">+Добавить</button>
+</div>
+<app-modal></app-modal>

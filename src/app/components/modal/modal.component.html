@@ -1,0 +1,12 @@
+<div *ngIf="isModalShown" class="modal__wrapper">
+	<div class="modal__content">
+		<label for="title">Title</label>
+		<input [(ngModel)]="title" type="text" name="title">
+		<label for="content">Content</label>
+		<textarea [(ngModel)]="content" name="content" id=""></textarea>
+		<div class="modal__buttons">
+			<button (click)="closeModal()" class="btn">Отмена</button>
+			<button (click)="addRecord()" class="btn">Сохранить</button>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,12 @@
+<div class="record">
+	<div>
+		<a routerLink="" class="btn">Назад</a>
+	</div>
+	<h3>Запись "{{currentRecord?.title}}"</h3>
+	<input [value]="title" [ngModel]="title" (ngModelChange)="titleChangeHandler($event)" type="text">
+	<textarea [ngModel]="content" (ngModelChange)="contentChangeHandler($event)" type="text"></textarea>
+	<div class="record__buttons">
+		<a routerLink="" (click)='removeRecord()' class="btn btn__remove">Удалить</a>
+		<a routerLink="" (click)="saveRecord()" class="btn" class="btn">Сохранить</a>
+	</div>
+</div>

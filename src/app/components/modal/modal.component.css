@@ -1,0 +1,43 @@
+.modal__wrapper{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.918);
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	height: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.modal__content{
+	background-color: #fff;
+    display: flex;
+	flex-direction: column;
+	width: 600px;
+	max-width: 50%;
+	height: 400px;
+	z-index: 999;
+	padding: 10px;
+}
+.modal__buttons{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.modal__buttons > button{
+	margin-right: 10px;
+}
+
+.modal__content > input{
+	margin-bottom: 25px;
+	padding: 5px 0;
+	outline: none;
+}
+
+.modal__content > textarea{
+	flex: 1;
+	max-height: 60%;
+	margin-bottom: 15px;
+	outline: none;
+}

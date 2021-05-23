@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	position: relative;
+}
+.btn{
+	width: 100px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 15px;
+	background-color: rgba(186, 218, 248, 0.356);
+	border: 1px solid rgb(170, 170, 226);
+}
+.btn__remove{
+	border-color: rgb(221, 92, 92);
+	background-color: rgb(241, 199, 199);
+}
+a{
+	text-decoration: none;
+	color: #000;
+}

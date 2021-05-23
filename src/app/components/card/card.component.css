@@ -1,0 +1,29 @@
+.card{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	height: 250px;
+	width: 300px;
+}
+.card > h5{
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-bottom: 5px;
+}
+.card__content{
+	display: flex;
+	align-items: flex-start;
+    padding: 5px 15px;
+	border: 1px solid black;
+	margin-bottom: 5px;
+	height: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.card a{
+	border-radius: 5px;
+	padding: 0 10px;
+	width: 100%;
+}

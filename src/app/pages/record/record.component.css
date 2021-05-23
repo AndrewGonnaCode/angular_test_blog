@@ -1,0 +1,27 @@
+.record{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 10px 5px 20px;
+}
+.record h3{
+	margin-bottom: 20px;
+}
+.record > input{
+	margin-bottom: 25px;
+	padding: 6px 0;
+	outline: none;
+}
+.record > div > a{
+	margin-bottom: 40px;
+}
+.record > textarea{
+	flex: 1;
+	max-height: 60%;
+	margin-bottom: 15px;
+	outline: none;
+}
+.record__buttons{
+   display: flex;
+   justify-content: space-between;
+}
